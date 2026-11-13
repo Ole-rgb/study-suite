@@ -10,13 +10,6 @@ instructions, skill/command examples, and a read-only-by-default Stud.IP connect
 
 The animated preview links to the [full MP4 demo](docs/media/study-suite-intro.mp4).
 
-### How it fits together
-
-[![Study Suite architecture](docs/architecture.svg)](docs/architecture.drawio)
-
-The image is embedded above; [open the editable Draw.io source](docs/architecture.drawio)
-with [diagrams.net](https://app.diagrams.net/).
-
 This repository is a template, not a copy of anyone's personal vault. The example
 course is synthetic. No credentials, account state, course files, or personal notes
 belong here.
@@ -34,6 +27,13 @@ belong here.
 The MCP does not expose Stud.IP's red unread indicators. "New" means newly observed
 since the learner-confirmed baseline, not verified unread. File listings may not have
 reliable upload dates.
+
+## Architecture
+
+[![Study Suite architecture](docs/architecture.svg)](docs/architecture.drawio)
+
+The image is embedded above; [open the editable Draw.io source](docs/architecture.drawio)
+with [diagrams.net](https://app.diagrams.net/).
 
 ## Quick start
 
