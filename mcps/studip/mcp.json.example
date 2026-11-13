@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "studip": {
+      "type": "stdio",
+      "command": "/absolute/path/to/study-suite/mcps/studip/.venv/bin/python",
+      "args": [
+        "/absolute/path/to/study-suite/mcps/studip/server.py"
+      ],
+      "env": {
+        "STUDIP_BASE_URL": "https://studip.example.edu",
+        "STUDIP_VAULT_DIR": "/absolute/path/to/your/study-vault",
+        "STUDIP_DATA_DIR": "/absolute/path/to/private/studip-mcp-state"
+      }
+    }
+  }
+}

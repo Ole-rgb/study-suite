@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" modified="2026-11-13T16:00:00.000Z" agent="study-suite" version="24.7.17">
+  <diagram id="study-suite-flow" name="Study Suite">
+    <mxGraphModel dx="1280" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="650" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="claude" value="Claude Desktop / Claude Code&#xa;Tutor instructions + installed skills" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="410" y="70" width="330" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="vault" value="Obsidian study vault&#xa;Course.md · notes · schedule · resources&#xa;Temporary staging: .tmp/StudIP/" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="405" y="300" width="340" height="115" as="geometry"/>
+        </mxCell>
+        <mxCell id="studip" value="Stud.IP&#xa;Courses · announcements · events · files" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="260" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="mcp" value="Stud.IP MCP&#xa;Authenticated reads + selected downloads&#xa;User-owned browser sign-in" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="415" y="500" width="320" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="state" value="Private local MCP state&#xa;Browser profile · cache · update baseline&#xa;Never commit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="840" y="500" width="270" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="anki" value="Anki MCP&#xa;Separate integration&#xa;Draft → approval → create → verify" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="840" y="175" width="270" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge1" value="ordinary chat / study requests" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="claude" target="vault">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;html=1;rounded=1;jettySize=auto;" edge="1" parent="1" source="mcp" target="studip">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="555" as="sourcePoint"/>
+            <mxPoint x="340" y="345" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="380" y="555"/>
+              <mxPoint x="380" y="345"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge3" value="selected files only" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="mcp" target="vault">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge4" value="" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="mcp" target="state">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge5" value="approved card changes" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;html=1;rounded=1;jettySize=auto;" edge="1" parent="1" source="claude" target="anki">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="115" as="sourcePoint"/>
+            <mxPoint x="840" y="222" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="800" y="115"/>
+              <mxPoint x="800" y="222"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2-label" value="list + preview" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#43515a;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="360" y="430" width="24" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge4-label" value="private state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#43515a;" vertex="1" parent="1">
+          <mxGeometry x="780" y="534" width="90" height="24" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+downloads/
+.tmp/
+state/
+cache.json
+update_state.json
+pending_baseline.json
+browser-profile/
+*.log
+.pytest_cache/

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1169" height="650" viewBox="0 0 1169 650" role="img" aria-labelledby="title description">
+  <title id="title">Study Suite architecture</title>
+  <desc id="description">Claude connects an Obsidian study vault, the Stud.IP MCP, and an optional Anki MCP. Stud.IP data is staged for review, while private browser and baseline state remains local.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4.5 L0,9 z" fill="#52616b" stroke="#52616b" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      text { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #24313a; }
+      .title { font-size: 25px; font-weight: 700; }
+      .label { font-size: 18px; font-weight: 650; }
+      .body { font-size: 15px; }
+      .edge-label { font-size: 13px; fill: #43515a; }
+      .node { stroke-width: 2; rx: 14; }
+      .edge { stroke: #52616b; stroke-width: 2.3; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1169" height="650" fill="#ffffff"/>
+  <text x="584" y="38" text-anchor="middle" class="title">Study Suite — setup and data flow</text>
+
+  <rect x="390" y="75" width="390" height="110" class="node" fill="#dae8fc" stroke="#6c8ebf"/>
+  <text x="585" y="112" text-anchor="middle" class="label">Claude Desktop / Claude Code</text>
+  <text x="585" y="142" text-anchor="middle" class="body">Tutor instructions + installed skills</text>
+  <text x="585" y="164" text-anchor="middle" class="body">Natural-language study requests</text>
+
+  <rect x="78" y="325" width="285" height="115" class="node" fill="#fff2cc" stroke="#d6b656"/>
+  <text x="220" y="364" text-anchor="middle" class="label">Stud.IP</text>
+  <text x="220" y="392" text-anchor="middle" class="body">Courses · announcements</text>
+  <text x="220" y="415" text-anchor="middle" class="body">Events · course files</text>
+
+  <rect x="444" y="505" width="340" height="126" class="node" fill="#f8cecc" stroke="#b85450"/>
+  <text x="614" y="545" text-anchor="middle" class="label">Stud.IP MCP</text>
+  <text x="614" y="574" text-anchor="middle" class="body">Authenticated reads + selected downloads</text>
+  <text x="614" y="600" text-anchor="middle" class="body">Sign in yourself in its dedicated browser</text>
+
+  <rect x="405" y="280" width="390" height="132" class="node" fill="#d5e8d4" stroke="#82b366"/>
+  <text x="600" y="319" text-anchor="middle" class="label">Obsidian study vault</text>
+  <text x="600" y="349" text-anchor="middle" class="body">Course.md · notes · schedule · resources</text>
+  <text x="600" y="376" text-anchor="middle" class="body">Temporary staging: .tmp/StudIP/</text>
+
+  <rect x="865" y="500" width="260" height="112" class="node" fill="#e1d5e7" stroke="#9673a6"/>
+  <text x="995" y="539" text-anchor="middle" class="label">Private MCP state</text>
+  <text x="995" y="567" text-anchor="middle" class="body">Browser profile · cache</text>
+  <text x="995" y="590" text-anchor="middle" class="body">Update baseline · never commit</text>
+
+  <rect x="865" y="210" width="260" height="112" class="node" fill="#ffe6cc" stroke="#d79b00"/>
+  <text x="995" y="249" text-anchor="middle" class="label">Optional Anki MCP</text>
+  <text x="995" y="277" text-anchor="middle" class="body">Separate integration</text>
+  <text x="995" y="300" text-anchor="middle" class="body">Draft → approve → create → verify</text>
+
+  <path d="M585 185 L585 270" class="edge"/>
+  <text x="601" y="235" class="edge-label">read / update with permission</text>
+  <path d="M444 559 L390 559 L390 383 L363 383" class="edge"/>
+  <text x="407" y="475" text-anchor="middle" class="edge-label" transform="rotate(-90 407 475)">list + preview</text>
+  <path d="M548 505 L548 430" class="edge"/>
+  <text x="560" y="472" class="edge-label">selected files only</text>
+  <path d="M784 568 L855 568" class="edge"/>
+  <text x="828" y="548" text-anchor="middle" class="edge-label">private state</text>
+  <path d="M780 145 L830 145 L830 266 L865 266" class="edge"/>
+  <text x="792" y="128" class="edge-label">approved cards</text>
+
+</svg>
