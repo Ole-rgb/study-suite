@@ -4,6 +4,12 @@ A reusable starter kit for a personal study workflow with Claude, a Stud.IP MCP,
 and an optional Anki MCP. It combines an Obsidian course vault, reusable tutor
 instructions, skill/command examples, and a read-only-by-default Stud.IP connector.
 
+## See it in action
+
+[![Study Suite overview — click to watch the video](docs/media/study-suite-intro.gif)](docs/media/study-suite-intro.mp4)
+
+The animated preview links to the [full MP4 demo](docs/media/study-suite-intro.mp4).
+
 ### How it fits together
 
 [![Study Suite architecture](docs/architecture.svg)](docs/architecture.drawio)
