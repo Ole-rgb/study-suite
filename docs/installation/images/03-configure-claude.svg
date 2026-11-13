@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-labelledby="t d">
+  <title id="t">Configure Claude Desktop to launch the local MCP</title><desc id="d">Set the local Python executable, server script, Stud.IP URL, vault path, and private state path.</desc>
+  <rect width="900" height="230" rx="18" fill="#f5f8fc"/><text x="34" y="42" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#24313a">Claude Desktop → local MCP config</text>
+  <rect x="60" y="65" width="780" height="137" rx="12" fill="#263238"/><g font-family="Menlo,monospace" font-size="15" fill="#eaf2f4">
+    <text x="88" y="96">"studip": { "type": "stdio",</text><text x="112" y="123">"command": ".../.venv/bin/python",</text><text x="112" y="150">"args": [".../mcps/studip/server.py"],</text><text x="112" y="177">"env": { "STUDIP_BASE_URL": "...", "STUDIP_VAULT_DIR": "...", ... }</text>
+  </g><text x="450" y="221" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#5b6670">Use your own absolute paths. Keep this personalized config private.</text>
+</svg>

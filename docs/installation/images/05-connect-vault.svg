@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-labelledby="t d">
+  <title id="t">Connect the same Obsidian vault to Obsidian and Claude Desktop</title><desc id="d">Open the new StudyVault folder in Obsidian and add that folder and its CLAUDE.md instructions to Claude Desktop.</desc>
+  <rect width="900" height="230" rx="18" fill="#f5f8fc"/><text x="34" y="42" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#24313a">One local vault, two apps</text>
+  <rect x="335" y="83" width="230" height="100" rx="14" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/><text x="450" y="121" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#24313a">StudyVault folder</text><text x="450" y="151" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40515c">CLAUDE.md + course files</text>
+  <path d="M335 115H220V96H120" fill="none" stroke="#52616b" stroke-width="3"/><path d="m127 88-12 8 12 8" fill="none" stroke="#52616b" stroke-width="3"/>
+  <path d="M565 115H680V96H780" fill="none" stroke="#52616b" stroke-width="3"/><path d="m773 88 12 8-12 8" fill="none" stroke="#52616b" stroke-width="3"/>
+  <rect x="35" y="65" width="170" height="90" rx="13" fill="#e8ddfa" stroke="#9673a6" stroke-width="2"/><text x="120" y="104" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#24313a">Obsidian</text><text x="120" y="131" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40515c">open folder as vault</text>
+  <rect x="695" y="65" width="170" height="90" rx="13" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/><text x="780" y="104" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#24313a">Claude Project</text><text x="780" y="131" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40515c">instructions + access</text>
+  <text x="450" y="215" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#5b6670">Grant access only to the vault you intend Claude to read and update.</text>
+</svg>

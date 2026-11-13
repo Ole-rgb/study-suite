@@ -46,6 +46,10 @@ reliable upload dates.
 6. On the first semester sync, ask for a preview, review it, and only then confirm
    the baseline. Do not start with an incremental update check.
 
+For a step-by-step illustrated macOS + Claude Desktop walkthrough, see
+[`docs/installation/`](docs/installation/README.md). The images are generic diagrams,
+not screenshots of a particular account or app version.
+
 ## Repository map
 
 - `vault-template/` — safe-to-copy vault structure, generic tutor instructions,
@@ -56,6 +60,8 @@ reliable upload dates.
 - [`docs/architecture.drawio`](docs/architecture.drawio) — editable diagram source;
   [`docs/architecture.svg`](docs/architecture.svg) — README preview.
 - `docs/setup-and-usage.md` — installation, daily catch-up, and semester migration.
+- [`docs/installation/`](docs/installation/README.md) — numbered installation steps
+  with one illustration per step.
 
 ## Safety and scope
 

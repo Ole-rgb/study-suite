@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-labelledby="t d">
+  <title id="t">Install the Stud.IP MCP in an isolated Python environment</title><desc id="d">Create a virtual environment, install dependencies, and install the Playwright Firefox browser.</desc>
+  <rect width="900" height="230" rx="18" fill="#f5f8fc"/><text x="34" y="42" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#24313a">Install locally in an isolated environment</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="45" y="78" width="235" height="105" rx="13" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/><text x="162" y="115" font-size="17" font-weight="700" fill="#24313a">Create .venv</text><text x="162" y="145" font-size="14" fill="#40515c">python3 -m venv .venv</text>
+    <path d="M291 130h48" stroke="#52616b" stroke-width="3"/><path d="m335 122 12 8-12 8" fill="none" stroke="#52616b" stroke-width="3"/>
+    <rect x="354" y="78" width="235" height="105" rx="13" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/><text x="471" y="115" font-size="17" font-weight="700" fill="#24313a">Install packages</text><text x="471" y="145" font-size="14" fill="#40515c">pip install -r requirements.txt</text>
+    <path d="M600 130h48" stroke="#52616b" stroke-width="3"/><path d="m644 122 12 8-12 8" fill="none" stroke="#52616b" stroke-width="3"/>
+    <rect x="663" y="78" width="192" height="105" rx="13" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/><text x="759" y="115" font-size="17" font-weight="700" fill="#24313a">Install Firefox</text><text x="759" y="145" font-size="14" fill="#40515c">Playwright browser</text>
+  </g><text x="450" y="215" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#5b6670">Only the MCP environment is affected; credentials remain outside the repo.</text>
+</svg>

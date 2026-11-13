@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-labelledby="t d">
+  <title id="t">Connect the optional Anki MCP and review cards before creation</title><desc id="d">Anki MCP is separate; register the skill, draft cards, approve them, then verify creation.</desc>
+  <rect width="900" height="230" rx="18" fill="#f5f8fc"/><text x="34" y="42" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#24313a">Optional Anki workflow</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="35" y="82" width="180" height="100" rx="13" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/><text x="125" y="120" font-size="16" font-weight="700" fill="#24313a">Connect</text><text x="125" y="148" font-size="13" fill="#40515c">Anki MCP separately</text>
+    <path d="M223 132h30" stroke="#52616b" stroke-width="3"/><path d="m249 124 12 8-12 8" fill="none" stroke="#52616b" stroke-width="3"/>
+    <rect x="268" y="82" width="180" height="100" rx="13" fill="#e8ddfa" stroke="#9673a6" stroke-width="2"/><text x="358" y="120" font-size="16" font-weight="700" fill="#24313a">Register skill</text><text x="358" y="148" font-size="13" fill="#40515c">available in Claude</text>
+    <path d="M456 132h30" stroke="#52616b" stroke-width="3"/><path d="m482 124 12 8-12 8" fill="none" stroke="#52616b" stroke-width="3"/>
+    <rect x="501" y="82" width="180" height="100" rx="13" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/><text x="591" y="120" font-size="16" font-weight="700" fill="#24313a">Draft + approve</text><text x="591" y="148" font-size="13" fill="#40515c">you review before write</text>
+    <path d="M689 132h30" stroke="#52616b" stroke-width="3"/><path d="m715 124 12 8-12 8" fill="none" stroke="#52616b" stroke-width="3"/>
+    <rect x="734" y="82" width="135" height="100" rx="13" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/><text x="801" y="120" font-size="16" font-weight="700" fill="#24313a">Verify</text><text x="801" y="148" font-size="13" fill="#40515c">cards in deck</text>
+  </g><text x="450" y="215" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#5b6670">No TSV/CSV import fallback; cloud sync still requires your approval.</text>
+</svg>
