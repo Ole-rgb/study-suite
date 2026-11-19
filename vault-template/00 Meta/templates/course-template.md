@@ -13,6 +13,10 @@ exam_format: unknown
 
 ## Announcements and tasks
 
+## reMarkable
+<!-- Optional. One line per tablet notebook to sync (see CLAUDE.md). Delete if unused. -->
+- notebook: /University/<semester>/<course>/<notebook>  role: lectures  → Handwritten/
+
 ## Exam
 - Date/format: unknown
 - Source: not yet confirmed

@@ -1,7 +1,7 @@
 # Study Suite
 
 A reusable starter kit for a personal study workflow with Claude, a Stud.IP MCP,
-and an optional Anki MCP. It combines an Obsidian course vault, reusable tutor
+and optional Anki and reMarkable MCPs. It combines an Obsidian course vault, reusable tutor
 instructions, skill/command examples, and a read-only-by-default Stud.IP connector.
 
 ## See it in action
@@ -23,6 +23,9 @@ belong here.
 - An initial preview establishes a local comparison point for future update checks.
 - The optional Anki skill drafts cards for approval and uses a separately installed
   Anki MCP to create and verify them.
+- The optional reMarkable integration copies mapped handwritten notebooks into each
+  course's `Handwritten/` folder as dated PDFs, on request, through a read-only
+  reMarkable MCP.
 
 The MCP does not expose Stud.IP's red unread indicators. "New" means newly observed
 since the learner-confirmed baseline, not verified unread. File listings may not have
@@ -45,7 +48,9 @@ with [diagrams.net](https://app.diagrams.net/).
    server URL, vault path, and private application-data path in your MCP client's
    local configuration; never commit that configuration.
 4. Install the optional `anki-lecture-cards` skill in your Claude environment and
-   connect an Anki MCP separately if you want direct card creation.
+   connect an Anki MCP separately if you want direct card creation. For handwritten
+   reMarkable notes, add the reMarkable MCP in local-directory mode
+   (`integrations/remarkable/README.md`).
 5. In Claude Desktop, add the vault as a Project, give it file access, and put the
    vault's `CLAUDE.md` in its project instructions. In Claude Code, open the vault
    directory so the project instructions and optional slash commands are available.
@@ -63,6 +68,7 @@ not screenshots of a particular account or app version.
   `TERM Example Course` (replace `TERM` with your semester prefix).
 - `mcps/studip/` — Stud.IP MCP source, setup notes, and configuration example.
 - `integrations/anki/` — how to connect an independent Anki MCP.
+- `integrations/remarkable/` — how the optional reMarkable sync works.
 - [`docs/architecture.drawio`](docs/architecture.drawio) — editable diagram source;
   [`docs/architecture.svg`](docs/architecture.svg) — README preview.
 - `docs/setup-and-usage.md` — installation, daily catch-up, and semester migration.

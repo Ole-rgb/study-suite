@@ -28,7 +28,8 @@ sign-in yourself in the dedicated browser, then call `verify_studip_login`.
 
 Add the copied vault as a Project, provide `CLAUDE.md` in its project instructions,
 and enable read/write access to the vault. Add the Stud.IP MCP using your local
-configuration. Add an Anki MCP only if you want Anki operations.
+configuration. Add an Anki MCP only if you want Anki operations, and a reMarkable MCP
+(local-directory mode) only if you want handwritten notes synced.
 
 Claude Desktop skills must be installed or registered in Claude's supported skills
 location. A `SKILL.md` stored in the vault or this repository is source material; it
@@ -81,6 +82,15 @@ The optional skill searches the target deck, drafts a small card set, requests
 approval, writes through the Anki MCP, and verifies the result. It does not create
 TSV/CSV import files. The Anki MCP is an independent integration and is not included
 or authenticated by this repository.
+
+## 8. reMarkable handwritten notes
+
+Optional. Ask "update my reMarkable files" (all mapped courses) or "fetch reMarkable
+files for <course>". The tutor syncs only notebooks mapped in each `Course.md`
+`## reMarkable` block — the lecture notebook for standard courses, video and session
+notebooks for flipped courses, nothing for seminars and labs — and saves dated PDFs in
+`Handwritten/` without overwriting. It runs only on request and never marks coverage.
+Setup: [installation step 8](installation/08-remarkable.md).
 
 ## Troubleshooting
 

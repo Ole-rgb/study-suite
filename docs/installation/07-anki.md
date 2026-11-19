@@ -17,4 +17,4 @@ created through the MCP; the workflow does not use TSV/CSV import files.
 **Done when:** Claude can find existing cards, show a draft for approval, and verify
 created cards in the intended deck.
 
-[Back to the installation guide](README.md)
+[Next: Optional — connect reMarkable](08-remarkable.md)

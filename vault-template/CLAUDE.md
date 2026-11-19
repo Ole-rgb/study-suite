@@ -61,6 +61,28 @@ for duplicates, draft a small high-quality set, show it for approval, then creat
 verify cards. Never generate TSV/CSV import fallbacks. If the Anki MCP is unavailable,
 explain the issue and stop.
 
+## reMarkable handwritten notes (optional)
+
+If a reMarkable MCP is connected, use it only in read-only local-directory mode; never
+SSH mode. Sync only notebooks mapped in a course's `Course.md` `## reMarkable` block,
+and only when the learner asks ("update my reMarkable files", or "... for <course>";
+no course named = all mapped courses of the active semester). Not part of a catch-up
+unless asked.
+
+- Scope by course type: `standard` → the lecture notebook only; `flipped` → the video
+  and session notebooks; `seminar` and `lab` → do not open, read, or export anything.
+  Ignore documents outside mapped course folders.
+- Notebooks usually span many sessions; keep one PDF per notebook, not per lecture.
+- Export with `.claude/scripts/remarkable_sync.py` (dry run, then `--apply`) or the
+  MCP's export tool if its file can be saved. Write to
+  `01 Courses/<course>/Handwritten/<notebook> - <YYYY-MM-DD>.pdf`, never overwrite, and
+  log each export in `Handwritten/sync-log.md`.
+- Propose a mapping for unmapped in-scope notebooks or a new semester folder, and ask
+  before writing it. Mark seminar folders with `- ignore:` lines.
+- A handwritten PDF is not evidence of attendance, coverage, or understanding; never
+  change status, confidence, or progress because of a sync. Say when the cache may be
+  stale.
+
 ## Privacy and file safety
 
 Do not put credentials, session tokens, browser profiles, MCP state, or private course

@@ -11,8 +11,9 @@ Claude Desktop labels and settings can change between versions.
 - Firefox installed (the MCP opens a dedicated Firefox profile for Stud.IP sign-in).
 - Access to your institution's Stud.IP server.
 
-Anki is optional and covered in [Step 7](07-anki.md). The Anki MCP is separate from
-this repository.
+Anki is optional and covered in [Step 7](07-anki.md); reMarkable handwritten notes are
+optional and covered in [Step 8](08-remarkable.md). Both MCPs are separate from this
+repository.
 
 ## Steps
 
@@ -23,6 +24,7 @@ this repository.
 5. [Open the vault in Obsidian and Claude](05-connect-vault.md)
 6. [Review your first sync and start a catch-up](06-first-sync.md)
 7. [Optional: connect Anki](07-anki.md)
+8. [Optional: connect reMarkable](08-remarkable.md)
 
 For explanations of the data flow, see [the architecture diagram](../architecture.svg)
 or the [editable Draw.io source](../architecture.drawio).

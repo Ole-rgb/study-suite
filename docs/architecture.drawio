@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-11-13T16:00:00.000Z" agent="study-suite" version="24.7.17">
+<mxfile host="app.diagrams.net" modified="2026-11-19T13:00:00.000Z" agent="study-suite" version="24.7.17">
   <diagram id="study-suite-flow" name="Study Suite">
     <mxGraphModel dx="1280" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="650" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="claude" value="Claude Desktop / Claude Code&#xa;Tutor instructions + installed skills" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="410" y="70" width="330" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="vault" value="Obsidian study vault&#xa;Course.md · notes · schedule · resources&#xa;Temporary staging: .tmp/StudIP/" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="vault" value="Obsidian study vault&#xa;Course.md · notes · schedule · resources&#xa;Staging: .tmp/StudIP/ · Handwritten/" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="405" y="300" width="340" height="115" as="geometry"/>
         </mxCell>
         <mxCell id="studip" value="Stud.IP&#xa;Courses · announcements · events · files" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
@@ -21,6 +21,18 @@
         </mxCell>
         <mxCell id="anki" value="Anki MCP&#xa;Separate integration&#xa;Draft → approval → create → verify" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="840" y="175" width="270" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="remarkable" value="Optional reMarkable MCP&#xa;Desktop-app cache · read-only&#xa;Mapped notebooks only" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="260" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge6" value="PDFs on request" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;html=1;rounded=1;jettySize=auto;" edge="1" parent="1" source="remarkable" target="vault">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="200" as="sourcePoint"/>
+            <mxPoint x="470" y="300" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="470" y="200"/>
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="edge1" value="ordinary chat / study requests" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="claude" target="vault">
           <mxGeometry relative="1" as="geometry"/>
